@@ -21,10 +21,10 @@ const Index = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-peach text-ginger-dark text-sm font-medium mb-4">
                   <Sparkles className="w-4 h-4" />
-                  Your Financial Journey
+                  Your Financial Clarity & Conscious Spending
                 </div>
                 <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
-                  Good morning, <span className="text-gradient">Kodree!</span>
+                  Good morning, <span className="text-gradient">Alex!</span>
                 </h1>
                 <p className="text-muted-foreground text-lg">You're on a 7-day learning streak. Keep it up! 🔥</p>
               </div>
