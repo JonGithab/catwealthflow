@@ -6,20 +6,13 @@ import { GoalProgress } from "@/components/dashboard/GoalProgress";
 import { RecentTransactions } from "@/components/dashboard/RecentTransactions";
 import { LearningProgress } from "@/components/dashboard/LearningProgress";
 import { Button } from "@/components/ui/button";
-import { 
-  Wallet, 
-  TrendingUp, 
-  PiggyBank, 
-  Target,
-  Sparkles,
-  ArrowRight
-} from "lucide-react";
+import { Wallet, TrendingUp, PiggyBank, Target, Sparkles, ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <main className="pt-20 pb-12">
         <div className="container mx-auto px-4">
           {/* Hero Section */}
@@ -31,11 +24,9 @@ const Index = () => {
                   Your Financial Journey
                 </div>
                 <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
-                  Good morning, <span className="text-gradient">Alex!</span>
+                  Good morning, <span className="text-gradient">Kodree!</span>
                 </h1>
-                <p className="text-muted-foreground text-lg">
-                  You're on a 7-day learning streak. Keep it up! 🔥
-                </p>
+                <p className="text-muted-foreground text-lg">You're on a 7-day learning streak. Keep it up! 🔥</p>
               </div>
 
               <Link to="/quiz">
@@ -109,9 +100,10 @@ const Index = () => {
                     Your Weekly Money Story 📖
                   </h3>
                   <p className="text-foreground/80 leading-relaxed">
-                    This week, you spent <strong className="text-primary">30% less on dining out</strong> compared to last week. 
-                    Your coffee habit cost you $22.50 — making it at home could save you <strong className="text-success">$85/month</strong>. 
-                    Great job sticking to your entertainment budget! You're <strong className="text-primary">48%</strong> of the way to your vacation goal.
+                    This week, you spent <strong className="text-primary">30% less on dining out</strong> compared to
+                    last week. Your coffee habit cost you $22.50 — making it at home could save you{" "}
+                    <strong className="text-success">$85/month</strong>. Great job sticking to your entertainment
+                    budget! You're <strong className="text-primary">48%</strong> of the way to your vacation goal.
                   </p>
                   <Button variant="soft" size="sm" className="mt-4">
                     View Full Report
