@@ -60,13 +60,8 @@ export const Navbar = () => {
             })}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-3">
-            <Link to="/quiz">
-              <Button variant="gradient" size="lg">
-                Take Quiz
-              </Button>
-            </Link>
+          {/* User Button */}
+          <div className="hidden md:flex items-center">
             <Button variant="ghost" size="icon">
               <User className="w-5 h-5" />
             </Button>
@@ -105,11 +100,6 @@ export const Navbar = () => {
                   </Link>
                 );
               })}
-              <Link to="/quiz" onClick={() => setIsOpen(false)}>
-                <Button variant="gradient" className="w-full mt-2">
-                  Take Personality Quiz
-                </Button>
-              </Link>
             </div>
           </div>
         )}
