@@ -24,7 +24,7 @@ const Index = () => {
                   Your Financial Journey
                 </div>
                 <h1 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-2">
-                  Good morning, <span className="text-gradient">Kodree!</span>
+                  Good morning, <span className="text-gradient">Cat!</span>
                 </h1>
                 <p className="text-muted-foreground text-lg">You're on a 7-day learning streak. Keep it up! 🔥</p>
               </div>
