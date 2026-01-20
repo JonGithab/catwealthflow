@@ -215,16 +215,3 @@ The app can be deployed to any static hosting platform:
 - [ ] Export reports (PDF/CSV)
 - [ ] Mobile app (PWA)
 
-## 📄 License
-
-This project is private and proprietary.
-
-## 🤝 Contributing
-
-This is a Lovable-managed project. Changes can be made through:
-1. The Lovable editor interface
-2. Direct commits to the connected GitHub repository
-
----
-
-Built with ❤️ using [Lovable](https://lovable.dev)
