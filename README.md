@@ -7,10 +7,6 @@ A modern, intuitive personal finance management application built with React and
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-cyan)
 
-## 🌐 Deployment
-
-- **Production**: https://catwealthflow.lovable.app
-
 ## 🌟 Features
 
 ### Dashboard
